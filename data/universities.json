@@ -1,0 +1,42 @@
+[
+  {
+    "slug": "mit",
+    "name": "Massachusetts Institute of Technology",
+    "university_type": "Private Research University",
+    "base_url": "https://facts.mit.edu",
+    "pages": {
+      "about": "https://www.mit.edu/about/",
+      "facts": "https://facts.mit.edu/",
+      "fees": "https://facts.mit.edu/undergraduate-admissions/undergraduate-tuition/",
+      "graduate_fees": "https://facts.mit.edu/graduate-student-admission/graduate-tuition/",
+      "scholarships": "https://sfs.mit.edu/undergraduate-students/the-cost-of-attendance/",
+      "admissions": "https://facts.mit.edu/undergraduate-admissions/",
+      "employment": "https://capd.mit.edu/post-graduateandsummer/",
+      "visa": "https://iso.mit.edu/visas/",
+      "deadlines": "https://mitadmissions.org/apply/firstyear/deadlines-requirements/",
+      "courses": "https://catalog.mit.edu/subjects/6/"
+    }
+  },
+  {
+    "slug": "stanford",
+    "name": "Stanford University",
+    "university_type": "Private Research University",
+    "base_url": "https://facts.stanford.edu",
+    "pages": {
+      "about": "https://www.stanford.edu/about/history/",
+      "location": "https://visit.stanford.edu/basics/",
+      "facts": "https://facts.stanford.edu/academics/undergraduate-education/other-undergraduate-education-facts",
+      "fees": "https://financialaid.stanford.edu/undergrad/budget/index.html",
+      "graduate_fees": "https://facts.stanford.edu/academics/undergraduate-education/other-undergraduate-education-facts",
+      "scholarships": "https://financialaid.stanford.edu/undergrad/how/index.html",
+      "admissions": [
+        "https://facts.stanford.edu/academics/undergraduate-education/class-2029-profile",
+        "https://en.wikipedia.org/wiki/Stanford_University"
+      ],
+      "employment": "https://facts.stanford.edu/about/alumni/",
+      "visa": "https://immigration.stanford.edu/",
+      "deadlines": "https://admission.stanford.edu/apply/deadlines/",
+      "courses": "https://cs.stanford.edu/bs-core-requirements"
+    }
+  }
+]

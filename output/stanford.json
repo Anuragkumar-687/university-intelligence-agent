@@ -1,0 +1,157 @@
+{
+  "about": {
+    "name": "Stanford University",
+    "founding_year": 1885,
+    "ranking": "",
+    "location": "Palo Alto, California",
+    "university_type": "Private Research University"
+  },
+  "tuition_fees": {
+    "undergraduate_fees": "$67,731",
+    "postgraduate_fees": "$67,731"
+  },
+  "living_costs": {
+    "rent": "$22,944",
+    "food": "Included in housing and food allowance",
+    "transport": "Varies"
+  },
+  "scholarships": [
+    {
+      "scholarship_name": "Average Scholarship/Grant for the Class of 2028",
+      "value": "$74,310",
+      "eligibility": "for Stanford Scholarship funds is based not only on family income level, but also on the size of the family, number of family members in college and family assets among other factors. This explains wh",
+      "deadline": "Varies by program"
+    },
+    {
+      "scholarship_name": "Financial Aid Offices",
+      "value": "See university website",
+      "eligibility": "See official scholarship page",
+      "deadline": "Varies by program"
+    }
+  ],
+  "acceptance_rate": "3.68% (2,075 admits / 56,378 applicants)",
+  "graduate_employment": "",
+  "average_salaries": "",
+  "visa_policies": [
+    {
+      "visa_type": "F-1 Student Visa",
+      "processing_time": "Varies; apply early before program start",
+      "requirements": "Valid passport, admission letter, financial documentation, SEVIS fee"
+    }
+  ],
+  "intake_deadlines": [
+    {
+      "term": "Application with Optional Arts Portfolio",
+      "deadline": "October 15",
+      "notes": ""
+    },
+    {
+      "term": "Application with Optional Arts Portfolio",
+      "deadline": "December 5",
+      "notes": ""
+    },
+    {
+      "term": "Standard Application Deadline",
+      "deadline": "November 1",
+      "notes": ""
+    },
+    {
+      "term": "Standard Application Deadline",
+      "deadline": "January 5",
+      "notes": ""
+    },
+    {
+      "term": "Student Reply Date",
+      "deadline": "May 1",
+      "notes": ""
+    },
+    {
+      "term": "Required Application Components",
+      "deadline": "February 15",
+      "notes": ""
+    },
+    {
+      "term": "Required Application Components",
+      "deadline": "October 15",
+      "notes": ""
+    },
+    {
+      "term": "Required Application Components",
+      "deadline": "December 5",
+      "notes": ""
+    }
+  ],
+  "courses": [
+    {
+      "code": "CS300",
+      "title": "Seminar",
+      "credits": "Not specified",
+      "description": "A 2.0 minimum grade point average (GPA) for all courses in ENGR Fundamentals and CS Core, Depth, and Senior Project (combined) is required. Transfer credits in Computer Science Core must be approved by the Computer Science undergraduate program office. You can find more information regarding transfer credits here .",
+      "prerequisites": "See course catalog",
+      "mode": "In-person"
+    },
+    {
+      "code": "CS106B",
+      "title": "Programming Abstractions",
+      "credits": "Not specified",
+      "description": "CS106B introduces students to many fundamental programming concepts and software engineering techniques using the C++ language. The course will focus on teaching problem solving skills, basic abstract data types, and recursion. General topics include basic programming methodology (engineering, modularity, documentation), data abstractions (stacks, queues, linked lists, hash tables, binary trees, generics and templates), recursion (procedural, backtracking), searching and sorting, and basic algor",
+      "prerequisites": "See course catalog",
+      "mode": "In-person"
+    },
+    {
+      "code": "CS107",
+      "title": "Computer Organization and Systems",
+      "credits": "Not specified",
+      "description": "CS107 transitions students to programming on the UNIX machines. The class aims to teach students about computer systems from the hardware up to the source code. Topics include machine architecture (registers, I/O, basic assembly language), memory models (pointers, memory allocation, data representation), compilation (stack frames, semantic analysis, code generation), and basic concurrency (threading, synchronization).",
+      "prerequisites": "See course catalog",
+      "mode": "In-person"
+    },
+    {
+      "code": "CS111",
+      "title": "Principles of Computer Systems",
+      "credits": "Not specified",
+      "description": "Note : Formerly known as CS110. Explores operating system concepts, including concurrency, synchronization, scheduling, processes, virtual memory, I/O, file systems, and protection.",
+      "prerequisites": "See course catalog",
+      "mode": "In-person"
+    },
+    {
+      "code": "CS103",
+      "title": "Mathematical Foundations of Computing",
+      "credits": "Not specified",
+      "description": "CS103 will give students the mathematical foundations necessary for computer science. Topics include proof techniques and logic; induction; sets, functions, and relations; an introduction to formal languages; DFA's, NFA's, and Regular Expressions; Context-Free Grammars, Turing Machines, and NP-Completeness.",
+      "prerequisites": "See course catalog",
+      "mode": "In-person"
+    },
+    {
+      "code": "CS109",
+      "title": "Introduction to Probability for Computer Scientists",
+      "credits": "Not specified",
+      "description": "CS109 is designed to teach students material from probability and statistics that is relevant to computer science. Topics include combinatorics; probability theory; conditional probability, and independence; probability distributions; Bayes' Theorem, Law of Large Numbers, and the Central Limit Theorem; and hypothesis testing. The class will also cover applications of probability including hashing, data analysis, inference, and an introduction to machine learning.",
+      "prerequisites": "See course catalog",
+      "mode": "In-person"
+    },
+    {
+      "code": "CS161",
+      "title": "Data Structures and Algorithms",
+      "credits": "Not specified",
+      "description": "CS161 gives students the tools to analyze data structures and algorithms. Students will also practice devising algorithms for various problems. These skills are widely applicable, and alumni describe CS161 as one of the most useful classes at Stanford. Topics include algorithmic complexity analysis (Big O, Omega, Theta), recurrence relations, and the master method. In addition, students learn about several different classes of algorithms and data structures, including randomized algorithms, divi",
+      "prerequisites": "See course catalog",
+      "mode": "In-person"
+    }
+  ],
+  "source_urls": [
+    "https://www.stanford.edu/about/history/",
+    "https://visit.stanford.edu/basics/",
+    "https://facts.stanford.edu/academics/undergraduate-education/other-undergraduate-education-facts",
+    "https://financialaid.stanford.edu/undergrad/budget/index.html",
+    "https://facts.stanford.edu/academics/undergraduate-education/other-undergraduate-education-facts",
+    "https://financialaid.stanford.edu/undergrad/how/index.html",
+    "https://facts.stanford.edu/academics/undergraduate-education/class-2029-profile",
+    "https://en.wikipedia.org/wiki/Stanford_University",
+    "https://facts.stanford.edu/about/alumni/",
+    "https://immigration.stanford.edu/",
+    "https://admission.stanford.edu/apply/deadlines/",
+    "https://cs.stanford.edu/bs-core-requirements"
+  ],
+  "scrape_errors": []
+}

@@ -1,0 +1,263 @@
+{
+  "about": {
+    "name": "Massachusetts Institute of Technology",
+    "founding_year": 1861,
+    "ranking": "",
+    "location": "Cambridge, MA USA",
+    "university_type": "Private Research University"
+  },
+  "tuition_fees": {
+    "undergraduate_fees": "$64,310",
+    "postgraduate_fees": "$64,310"
+  },
+  "living_costs": {
+    "rent": "$13,614",
+    "food": "$7,650",
+    "transport": ""
+  },
+  "scholarships": [
+    {
+      "scholarship_name": "Institutional Financial Aid",
+      "value": "$10,268",
+      "eligibility": "Based on demonstrated financial need and program requirements",
+      "deadline": "Varies by academic year"
+    }
+  ],
+  "acceptance_rate": "4.56% (1,334 admits / 29,281 applicants)",
+  "graduate_employment": "",
+  "average_salaries": "",
+  "visa_policies": [
+    {
+      "visa_type": "F-1",
+      "processing_time": "10 business days (not including holidays or weekends) fr",
+      "requirements": "Valid passport, admission letter, financial documentation, SEVIS fee"
+    },
+    {
+      "visa_type": "J-1",
+      "processing_time": "10 business days (not including holidays or weekends) fr",
+      "requirements": "Valid passport, admission letter, financial documentation, SEVIS fee"
+    },
+    {
+      "visa_type": "I-20",
+      "processing_time": "10 business days (not including holidays or weekends) fr",
+      "requirements": "Valid passport, admission letter, financial documentation, SEVIS fee"
+    }
+  ],
+  "intake_deadlines": [
+    {
+      "term": "Application deadline",
+      "deadline": "November 1",
+      "notes": ""
+    },
+    {
+      "term": "Application deadline",
+      "deadline": "January 5",
+      "notes": ""
+    },
+    {
+      "term": "Deadlines",
+      "deadline": "November 1",
+      "notes": ""
+    },
+    {
+      "term": "Deadlines",
+      "deadline": "January 5",
+      "notes": ""
+    },
+    {
+      "term": "Early Action (EA)",
+      "deadline": "November 1",
+      "notes": ""
+    },
+    {
+      "term": "Early Action (EA)",
+      "deadline": "January 5",
+      "notes": ""
+    },
+    {
+      "term": "Regular Action (RA)",
+      "deadline": "January 5",
+      "notes": ""
+    },
+    {
+      "term": "Other dates & deadlines",
+      "deadline": "February 15",
+      "notes": ""
+    }
+  ],
+  "courses": [
+    {
+      "code": "6.1000",
+      "title": "Introduction to Programming and Computer Science (New)",
+      "credits": "3-0-9 units. REST Credit cannot",
+      "description": "",
+      "prerequisites": "Prereq: None U (Fall, Spring) 3-0-9 units. REST Credit cannot also be received for 6.100B , 9.C20[J] , 16.C20[J] , 18.C20[J] , CSE.C20[J] Develops foundational skills in programming and in computational modeling. Covers widely used programming concepts in Python, including mutability, function objects, and object-oriented programming. Introduces algorithmic complexity and some common libraries. Throughout, demonstrates using computation to help understand real-world phenomena; topics include optimization problems, building simulations, and statistical modeling. Intended for students with at least some prior exposure to programming. Students with no programming experience are encouraged to take 6.100A and 6.100B (or 16.C20[J] ) over two terms. A. Bell",
+      "mode": "In-person"
+    },
+    {
+      "code": "6.100A",
+      "title": "Introduction to Computer Science Programming in Python",
+      "credits": "2-0-4 units",
+      "description": "",
+      "prerequisites": "Prereq: None U (Fall, Spring) 2-0-4 units Introduction to computer science and programming. Students develop skills to program and use computational techniques to solve problems. Topics include: the notion of computation, Python, simple algorithms and data structures, object-oriented programming, testing and debugging, and algorithmic complexity. Lectures are viewed outside of class; in-class time is dedicated to problem-solving and discussion. Combination of 6.100A and 6.100B (or 16.C20[J] ) counts as REST subject. A. Bell",
+      "mode": "In-person"
+    },
+    {
+      "code": "6.100B",
+      "title": "Introduction to Computational Thinking and Data Science",
+      "credits": "2-0-4 units",
+      "description": "",
+      "prerequisites": "Prereq: 6.100A or permission of instructor U (Fall, Spring) 2-0-4 units Credit cannot also be received for 6.1000 , 9.C20[J] , 16.C20[J] , 18.C20[J] , CSE.C20[J] Provides an introduction to using computation to build models that can be used to help understand real-world phenomena. Topics include optimization problems, simulation models, and statistical models. Requires experience programming in Python as a prerequisite. Combination of 6.100A and 6.100B counts as REST subject. A. Bell, J. V. Guttag",
+      "mode": "In-person"
+    },
+    {
+      "code": "6.100L",
+      "title": "Introduction to Computer Science and Programming",
+      "credits": "2-0-4 units",
+      "description": "",
+      "prerequisites": "Prereq: None U (Fall, Spring) Not offered regularly; consult department 2-0-4 units Introduction to computer science and programming for students with no programming experience. Presents content taught in 6.100A over an entire semester. Students develop skills to program and use computational techniques to solve problems. Topics include the notion of computation, Python, simple algorithms and data structures, testing and debugging, and algorithmic complexity. Lectures are viewed outside of class; in-class time is dedicated to problem-solving and discussion. Combination of 6.100L and 6.100B or 16.C20[J] counts as REST subject. A. Bell, J. V. Guttag",
+      "mode": "In-person"
+    },
+    {
+      "code": "6.1010",
+      "title": "Fundamentals of Programming",
+      "credits": "2-4-6 units. Institute LAB Intro",
+      "description": "",
+      "prerequisites": "Prereq: 6.1000 or ( 6.100A and ( 6.100B or 16.C20[J] )) U (Fall, Spring) 2-4-6 units. Institute LAB Introduces fundamental concepts of programming. Designed to develop skills in applying basic methods from programming languages to abstract problems. Topics include programming and Python basics, computational concepts, software engineering, algorithmic techniques, data types, and recursion. Lab component consists of software design, construction, and implementation of design. Enrollment may be limited. D. S. Boning, A. Chlipala, S. Devadas, A. Hartz",
+      "mode": "In-person"
+    },
+    {
+      "code": "6.1020",
+      "title": "Software Construction",
+      "credits": "3-0-12 units",
+      "description": "",
+      "prerequisites": "Prereq: 6.1010 U (Spring) 3-0-12 units Introduces fundamental principles and techniques of software development: how to write software that is safe from bugs, easy to understand, and ready for change. Topics include specifications and invariants; testing, test-case generation, and coverage; abstract data types and representation independence; design patterns for object-oriented programming; concurrent programming, including message passing and shared memory concurrency, and defending against races and deadlock; and functional programming with immutable data and higher-order functions. Includes weekly programming exercises and larger group programming projects. M. Goldman, R. C. Miller",
+      "mode": "In-person"
+    },
+    {
+      "code": "6.1040",
+      "title": "Software Design",
+      "credits": "4-0-11 units",
+      "description": "",
+      "prerequisites": "Prereq: 6.1020 and 6.1200[J] U (Fall) 4-0-11 units Provides design-focused instruction on how to build complex software applications. Design topics include classic human-computer interaction (HCI) design tactics (need finding, heuristic evaluation, prototyping, user testing), conceptual design (inventing, modeling and evaluating constituent concepts), social and ethical implications, abstract data modeling, and visual design. Implementation topics include reactive front-ends, web services, and databases. Students work both on individual projects and a larger team project in which they design and build full-stack web applications. D. N. Jackson, A. Satyanarayan",
+      "mode": "In-person"
+    },
+    {
+      "code": "6.1060",
+      "title": "Software Performance Engineering",
+      "credits": "3-12-3 units",
+      "description": "",
+      "prerequisites": "Prereq: 6.1020 , 6.1210 , and 6.1910 U (Spring) 3-12-3 units Project-based introduction to building efficient, high-performance and scalable software systems. Topics include performance analysis, algorithmic techniques for high performance, instruction-level optimizations, vectorization, cache and memory hierarchy optimization, and parallel programming. S. Amarasinghe, C. E. Leiserson",
+      "mode": "In-person"
+    },
+    {
+      "code": "6.5060",
+      "title": "Algorithm Engineering",
+      "credits": "3-0-9 units",
+      "description": "",
+      "prerequisites": "Prereq: 6.1060 and 6.1220[J] G (Fall) 3-0-9 units Covers the theory and practice of algorithms and data structures. Topics include models of computation, algorithm design and analysis, and performance engineering of algorithm implementations. Presents the design and implementation of sequential, parallel, cache-efficient, and external-memory algorithms. Illustrates many of the principles of algorithm engineering in the context of parallel algorithms and graph problems. J. Shun",
+      "mode": "In-person"
+    },
+    {
+      "code": "6.5080",
+      "title": "Multicore Programming",
+      "credits": "4-0-8 units",
+      "description": "",
+      "prerequisites": "Prereq: 6.1210 G (Spring) Not offered regularly; consult department 4-0-8 units Introduces principles and core techniques for programming multicore machines. Topics include locking, scalability, concurrent data structures, multiprocessor scheduling, load balancing, and state-of-the-art synchronization techniques, such as transactional memory. Includes sequence of programming assignments on a large multicore machine, culminating with the design of a highly concurrent application. Students taking graduate version complete additional assignments. N. Shavit",
+      "mode": "In-person"
+    },
+    {
+      "code": "6.5081",
+      "title": "Multicore Programming",
+      "credits": "4-0-8 units",
+      "description": "",
+      "prerequisites": "Prereq: 6.1210 U (Spring) Not offered regularly; consult department 4-0-8 units Introduces principles and core techniques for programming multicore machines. Topics include locking, scalability, concurrent data structures, multiprocessor scheduling, load balancing, and state-of-the-art synchronization techniques, such as transactional memory. Includes sequence of programming assignments on a large multicore machine, culminating with the design of a highly concurrent application. Students taking graduate version complete additional assignments. N. Shavit",
+      "mode": "In-person"
+    },
+    {
+      "code": "6.1100",
+      "title": "Computer Language Engineering",
+      "credits": "4-4-4 units",
+      "description": "",
+      "prerequisites": "Prereq: 6.1020 and 6.1910 Acad Year 2025-2026: Not offered Acad Year 2026-2027: U (Spring) 4-4-4 units Analyzes issues associated with the implementation of higher-level programming languages. Fundamental concepts, functions, and structures of compilers. The interaction of theory and practice. Using tools in building software. Includes a multi-person project on compiler design and implementation. M. C. Rinard",
+      "mode": "In-person"
+    },
+    {
+      "code": "6.1120",
+      "title": "Dynamic Computer Language Engineering",
+      "credits": "4-4-4 units",
+      "description": "",
+      "prerequisites": "Prereq: 6.1020 or 6.1910 U (Fall) 4-4-4 units Studies the design and implementation of modern, dynamic programming languages. Topics include fundamental approaches for parsing, semantics and interpretation, virtual machines, garbage collection, just-in-time machine code generation, and optimization. Includes a semester-long, group project that delivers a virtual machine that spans all of these topics. M. Carbin",
+      "mode": "In-person"
+    },
+    {
+      "code": "6.5110",
+      "title": "Foundations of Program Analysis",
+      "credits": "3-0-9 units",
+      "description": "",
+      "prerequisites": "Prereq: 6.1100 G (Fall) Not offered regularly; consult department 3-0-9 units Presents major principles and techniques for program analysis. Includes formal semantics, type systems and type-based program analysis, abstract interpretation and model checking and synthesis. Emphasis on Haskell and Ocaml, but no prior experience in these languages is assumed. Student assignments include implementing of techniques covered in class, including building simple verifiers. A. Solar-Lezama",
+      "mode": "In-person"
+    },
+    {
+      "code": "6.5120",
+      "title": "Formal Reasoning About Programs",
+      "credits": "3-0-9 units",
+      "description": "",
+      "prerequisites": "Prereq: 6.1020 and 6.1200[J] G (Fall) 3-0-9 units Surveys techniques for rigorous mathematical reasoning about correctness of software, emphasizing commonalities across approaches. Introduces interactive computer theorem proving with the Coq proof assistant, which is used for all assignments, providing immediate feedback on soundness of logical arguments. Covers common program-proof techniques, including operational semantics, model checking, abstract interpretation, type systems, program logics, and their applications to functional, imperative, and concurrent programs. Develops a common conceptual framework based on invariants, abstraction, and modularity applied to state and labeled transition systems. A. Chlipala",
+      "mode": "In-person"
+    },
+    {
+      "code": "6.5130",
+      "title": "Introduction to Program Synthesis (New)",
+      "credits": "3-0-9 units",
+      "description": "",
+      "prerequisites": "Prereq: 6.1010 and 6.1200[J] Acad Year 2025-2026: G (Fall) Acad Year 2026-2027: Not offered 3-0-9 units Provides a comprehensive introduction to the field of software synthesis, an emerging field that sits at the intersection of programming systems, formal methods, and artificial intelligence. The subject is structured into three major sections. The first focuses on program induction from examples and covers a variety of techniques to search large program spaces. The second focuses on synthesis from expressive specifications and the interaction between synthesis and verification. Finally, the third focuses on synthesis with quantitative specifications and the intersection between program synthesis and machine learning. A. Solar-Lezama",
+      "mode": "In-person"
+    },
+    {
+      "code": "6.5150",
+      "title": "Large-scale Symbolic Systems",
+      "credits": "3-0-9 units",
+      "description": "",
+      "prerequisites": "Prereq: 6.1010 or permission of instructor Acad Year 2025-2026: Not offered Acad Year 2026-2027: G (Spring) 3-0-9 units Concepts and techniques for the design and implementation of large software systems that can be adapted to uses not anticipated by the designer. Applications include compilers, computer-algebra systems, deductive systems, and some artificial intelligence applications. Covers means for decoupling goals from strategy, mechanisms for implementing additive data-directed invocation, work with partially-specified entities, and how to manage multiple viewpoints. Topics include combinators, generic operations, pattern matching, pattern-directed invocation, rule systems, backtracking, dependencies, indeterminacy, memoization, constraint propagation, and incremental refinement. Students taking graduate version complete additional assignments. G. J. Sussman",
+      "mode": "In-person"
+    },
+    {
+      "code": "6.5151",
+      "title": "Large-scale Symbolic Systems",
+      "credits": "3-0-9 units",
+      "description": "",
+      "prerequisites": "Prereq: 6.1010 or permission of instructor Acad Year 2025-2026: Not offered Acad Year 2026-2027: U (Spring) 3-0-9 units Concepts and techniques for the design and implementation of large software systems that can be adapted to uses not anticipated by the designer. Applications include compilers, computer-algebra systems, deductive systems, and some artificial intelligence applications. Covers means for decoupling goals from strategy, mechanisms for implementing additive data-directed invocation, work with partially-specified entities, and how to manage multiple viewpoints. Topics include combinators, generic operations, pattern matching, pattern-directed invocation, rule systems, backtracking, dependencies, indeterminacy, memoization, constraint propagation, and incremental refinement. Students taking graduate version complete additional assignments. G. J. Sussman",
+      "mode": "In-person"
+    },
+    {
+      "code": "6.120A",
+      "title": "Discrete Mathematics and Proof for Computer Science",
+      "credits": "3-0-3 units",
+      "description": "",
+      "prerequisites": "Prereq: Calculus I (GIR) U (Spring; second half of term) 3-0-3 units Subset of elementary discrete mathematics for science and engineering useful in computer science. Topics may include logical notation, sets, done relations, elementary graph theory, state machines and invariants, induction and proofs by contradiction, recurrences, asymptotic notation, elementary analysis of algorithms, elementary number theory and cryptography, permutations and combinations, counting tools. Staff",
+      "mode": "In-person"
+    },
+    {
+      "code": "6.1210",
+      "title": "Introduction to Algorithms",
+      "credits": "5-0-7 units",
+      "description": "",
+      "prerequisites": "Prereq: 6.100A and ( 6.1200[J] or ( 6.120A and ( 6.3700 , 6.3800 , 18.05 , or 18.600 ))) U (Fall, Spring) 5-0-7 units Introduction to mathematical modeling of computational problems, as well as common algorithms, algorithmic paradigms, and data structures used to solve these problems. Emphasizes the relationship between algorithms and programming, and introduces basic performance measures and analysis techniques for these problems. Enrollment may be limited. E. Demaine, S. Devadas",
+      "mode": "In-person"
+    }
+  ],
+  "source_urls": [
+    "https://www.mit.edu/about/",
+    "https://facts.mit.edu/",
+    "https://facts.mit.edu/undergraduate-admissions/undergraduate-tuition/",
+    "https://facts.mit.edu/graduate-student-admission/graduate-tuition/",
+    "https://sfs.mit.edu/undergraduate-students/the-cost-of-attendance/",
+    "https://facts.mit.edu/undergraduate-admissions/",
+    "https://capd.mit.edu/post-graduateandsummer/",
+    "https://iso.mit.edu/visas/",
+    "https://mitadmissions.org/apply/firstyear/deadlines-requirements/",
+    "https://catalog.mit.edu/subjects/6/"
+  ],
+  "scrape_errors": []
+}

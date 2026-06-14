@@ -1,0 +1,1 @@
+"""University intelligence data models."""
