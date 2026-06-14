@@ -445,18 +445,28 @@ def extract_employment(html: str) -> tuple[str, str]:
     employment = _search_patterns(
         text,
         [
-            r"(\d+(?:\.\d+)?\s*%\s*(?:employed|employment|job placement)[^.\n]{0,60})",
-            r"(?:employment rate|placed within)[^.\n]{0,40}(\d+(?:\.\d+)?\s*%)",
-            r"(\d+(?:\.\d+)?\s*%\s*of graduates[^.\n]{0,80})",
+            r"(\d+(?:\.\d+)?\s*%\s*(?:employed|employment|job placement)[^.\n]{0,100})",
+            r"(?:employment rate|placed within)[^.\n]{0,80}(\d+(?:\.\d+)?\s*%)",
+            r"(\d+(?:\.\d+)?\s*%\s*of graduates[^.\n]{0,120})",
+
+            # NEW
+            r"(\d+(?:\.\d+)?\s*%\s*(?:graduates|students)[^.\n]{0,120}(?:employed|working))",
+            r"(?:career outcomes|outcomes)[^.\n]{0,120}(\d+(?:\.\d+)?\s*%)",
+            r"(\d+(?:\.\d+)?\s*%\s*(?:success rate|placement rate))",
         ],
     )
 
     salary = _search_patterns(
         text,
         [
-            r"(?:average|median)\s+(?:starting\s+)?salary[^$]{0,20}(\$[\d,]+(?:\.\d{2})?)",
+            r"(?:average|median)\s+(?:starting\s+)?salary[^$]{0,50}(\$[\d,]+(?:\.\d{2})?)",
             r"(\$[\d,]+(?:\.\d{2})?)\s*(?:average|median)\s+(?:starting\s+)?salary",
-            r"(?:salary)[^$]{0,30}(\$[\d,]+(?:\.\d{2})?)",
+            r"(?:salary)[^$]{0,50}(\$[\d,]+(?:\.\d{2})?)",
+
+            # NEW
+            r"(?:earn|earning|earnings)[^$]{0,50}(\$[\d,]+(?:\.\d{2})?)",
+            r"(?:compensation)[^$]{0,50}(\$[\d,]+(?:\.\d{2})?)",
+            r"(?:starting pay)[^$]{0,50}(\$[\d,]+(?:\.\d{2})?)",
         ],
     )
 
