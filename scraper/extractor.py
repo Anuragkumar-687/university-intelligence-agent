@@ -32,8 +32,8 @@ LABEL_VALUE_PATTERN = re.compile(
     re.MULTILINE,
 )
 COURSE_CODE_PATTERN = re.compile(r"\b([A-Z]{1,4}\.?\s?\d{1,4}[A-Z]?|\d\.\d{4}[A-Z]?)\b")
-MIT_COURSE_TITLE_PATTERN = re.compile(r"^(\d\.\d+[A-Z]?)\s+(.+)$")
-STANFORD_COURSE_LINE_PATTERN = re.compile(
+CATALOG_COURSE_TITLE_PATTERN = re.compile(r"^(\d\.\d+[A-Z]?)\s+(.+)$")
+GENERIC_COURSE_LINE_PATTERN = re.compile(
     r"(?:^|\()([A-Z]{2,4}\s?\d{1,4}[A-Z]?)(?:\)|:|\s)",
     re.IGNORECASE,
 )
@@ -200,9 +200,11 @@ def extract_about(
         about.ranking = _search_patterns(
             text,
             [
-                r"(?:ranked|ranking)\s+#?\s?(\d+)[^\n.]{0,40}",
+                r"(?:ranked|ranking)\s+#?\s?(\d+)",
                 r"#(\d+)\s+(?:in|among)\s+(?:the\s+)?world",
                 r"U\.S\. News[^.\n]{0,40}#(\d+)",
+                r"QS World University Rankings[^.\n]{0,40}(\d+)",
+                r"World Ranking[^0-9]{0,20}(\d+)",
             ],
         )
         if about.ranking and not about.ranking.lower().startswith("rank"):
@@ -353,22 +355,18 @@ def extract_location(html: str) -> str:
     """Extract campus location from a dedicated location page."""
     soup = _make_soup(html)
     text = _page_text(soup)
+
     location = _search_patterns(
         text,
         [
-            r"(Palo Alto,?\s*California?)",
-            r"City of\s+(Palo Alto)",
-            r"campus[^.]{0,40}(Palo Alto,?\s*CA?)",
-            r"located\s+\d+\s+miles[^.]{0,40}(San Francisco|Palo Alto|Silicon Valley)",
+            r"Location[:\s]+([A-Za-z\s]+,\s*[A-Za-z\s]+)",
+            r"located in\s+([A-Za-z\s]+,\s*[A-Za-z\s]+)",
+            r"campus in\s+([A-Za-z\s]+,\s*[A-Za-z\s]+)",
+            r"City of\s+([A-Za-z\s]+)",
         ],
     )
-    if location:
-        if "california" not in location.lower() and location.lower() in {"palo alto", "stanford"}:
-            location = f"{location}, California"
-        return _clean_location(location)
-    if "palo alto" in text.lower():
-        return "Palo Alto, California"
-    return ""
+
+    return _clean_location(location) if location else ""
 
 
 def extract_acceptance_rate(html: str) -> str:
@@ -582,7 +580,7 @@ def extract_courses(html: str) -> list[Course]:
     # MIT catalog: dedicated course title blocks.
     for title_tag in soup.select("h4.courseblocktitle"):
         title_text = clean_text(title_tag.get_text(" ", strip=True))
-        match = MIT_COURSE_TITLE_PATTERN.match(title_text)
+        match = CATALOG_COURSE_TITLE_PATTERN.match(title_text)
         if not match:
             continue
 
@@ -624,7 +622,7 @@ def extract_courses(html: str) -> list[Course]:
     if not courses:
         for element in soup.find_all(["h2", "h3", "h4", "p", "li", "strong"]):
             line = clean_text(element.get_text(" ", strip=True))
-            code_match = STANFORD_COURSE_LINE_PATTERN.search(line)
+            code_match = GENERIC_COURSE_LINE_PATTERN.search(line)
             if not code_match:
                 continue
 
