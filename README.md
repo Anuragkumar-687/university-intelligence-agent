@@ -169,6 +169,14 @@ Edit `data/universities.json` and add a new entry with page URLs:
 
 Then run `python main.py` again.
 
+## Known Limitations
+
+Some university employment and salary pages are JavaScript-rendered or protected against automated scraping.
+
+The current implementation uses HTTP-based crawling with BeautifulSoup and therefore may not extract data from pages requiring client-side rendering.
+
+The architecture is designed so browser-based crawlers (Playwright/Selenium) can be added later without modifying the extraction pipeline.
+
 ## License
 
 Educational take-home project. Respect university website terms of service and robots.txt when scraping.
